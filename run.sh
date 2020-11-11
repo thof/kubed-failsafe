@@ -1,5 +1,10 @@
 #!/bin/sh
 
+printf "###########################\n"
+printf "# Kubed Fail-safe v0.12.0 #\n"
+printf "###########################\n\n"
+
+
 while true
 do 
   ./kubed $@
